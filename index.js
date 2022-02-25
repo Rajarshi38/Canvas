@@ -32,7 +32,7 @@ function draw(e) {
   if (hue >= 360) {
     hue = 0;
   }
-
+  //this is for the line-width
   if (context.lineWidth >= 100 || context.lineWidth <= 5) {
     direction = !direction;
   }
